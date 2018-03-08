@@ -33,8 +33,9 @@ body {
     font-size: 30px;
     color:#ffffff;
     padding:20px;
-    width: 23%;
+    width: 18%;
     text-align: center;
+    margin-left: 50px;
     float: left;
 }
 
@@ -52,18 +53,22 @@ body {
     overflow:auto;
 }
 
+#section{
+    overflow:auto;
+}
 #primary-modified   {
     background-color:#ffffff;
     width: 760px;
-    margin-left: 100px;
+    margin-left: 150px;
     margin-top: 20px;
     margin-bottom: 120px;
-    margin-right:30px;
+    margin-right:20px;
     padding: 20px;
     border-style: solid;
     border-width: 2px;
     border-color: #dddddd;
     line-height:1.5;
+    float: left;
 }
 
 .line{
@@ -73,6 +78,7 @@ body {
 
 #sds{
     margin: 10px;
+    float: left;
 }
 
 #pgph{
@@ -93,6 +99,11 @@ body {
     width: 15%;
     height: 20%;
     float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
 }
 
 .field{
@@ -122,7 +133,39 @@ body {
     background-color: #4aaaa5;
     color: #ffffff;
     width:200px;
+    height:40px;
     text-align: center;
+    padding-top:15px;
+}
+
+#hangman{
+    position:absolute;
+    top:10;
+    z-index:2
+}
+#img1{
+    position:relative;
+    top:30px;
+
+}
+#img2{
+    position:relative;
+    right:-230px;
+    top:-200px;
+}
+#img3{
+    position:relative;
+    top:-190px;
+
+}
+#img4{
+    position:relative;
+    top:-420px;
+    right:-230px;
+
+}
+#img5{position:relative;
+    top:-410px;
 
 }
 #footer{
