@@ -148,7 +148,7 @@ body {
     z-index:3;
 }
 
-#middlewrapper{
+#topwrapper{
     width:100%;
     overflow:auto;
 }
@@ -161,9 +161,17 @@ position:relative;
 }
 
 #hangman{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width:200px;
+    height:40px;
+    text-align: center;
+    padding-top:15px;
     position:absolute;
+    bottom:0;
+    width:100%;
     z-index:10;
-
+    margin-bottom:20px;
 }
 
 #block2{
@@ -173,6 +181,17 @@ position:relative;
 }
 
 #RPG{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width:200px;
+    height:40px;
+    text-align: center;
+    padding-top:15px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    z-index:10;
+    margin-bottom:20px;
 
 }
 
@@ -189,6 +208,17 @@ position:relative;
 }
 
 #trivia{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width:200px;
+    height:40px;
+    text-align: center;
+    padding-top:15px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    z-index:10;
+    margin-bottom:20px;
 
 }
 
@@ -198,13 +228,26 @@ margin-top:20px;
 position:relative;
 }
 
-#widget{} 
+#widget{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width:200px;
+    height:40px;
+    text-align: center;
+    padding-top:15px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    z-index:10;
+    margin-bottom:20px;
+} 
 
 
 #bottomwrapper{
     width:100%;
     overflow:auto;
 }
+
 #block5{
     float:left;
     margin-left:20px;
@@ -214,7 +257,16 @@ position:relative;
 }
 
 #rock{
-    margin-left:20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height:40px;
+    text-align: center;
+    padding-top:15px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    z-index:10;
+    margin-bottom:20px;
 }
 
 #footer{
